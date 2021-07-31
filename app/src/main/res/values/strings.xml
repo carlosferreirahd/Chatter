@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Chatter</string>
+    <string name="bem_vindo_de_volta">Bem-vindo de volta!</string>
+    <string name="login_para_continuar">Login para continuar</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="sign_in">Sign In</string>
+    <string name="criar_nova_conta">Criar nova conta</string>
+    <string name="nome">Nome</string>
+    <string name="confirmar_senha">Confirmar senha</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="ja_possui_uma_conta">Já possui uma conta?</string>
 </resources>
