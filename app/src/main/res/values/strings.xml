@@ -13,4 +13,5 @@
     <string name="add_imagem">Add Imagem</string>
     <string name="selecione_usuario">Selecione Usuário</string>
     <string name="botao_para_comecar_nova_conversa">Botão para começar nova conversa</string>
+    <string name="digite_sua_mensagem">Digite sua mensagem...</string>
 </resources>
