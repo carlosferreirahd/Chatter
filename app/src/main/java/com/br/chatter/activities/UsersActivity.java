@@ -57,6 +57,7 @@ public class UsersActivity extends AppCompatActivity implements UserListener {
 
                             User user = new User();
 
+                            user.id = snapshot.getId();
                             user.name = snapshot.getString(Constants.KEY_NAME);
                             user.email = snapshot.getString(Constants.KEY_EMAIL);
                             user.image = snapshot.getString(Constants.KEY_IMAGE);
