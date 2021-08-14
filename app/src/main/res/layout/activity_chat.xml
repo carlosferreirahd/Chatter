@@ -64,8 +64,22 @@
         android:textSize="@dimen/_14ssp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@id/imageBack"
-        app:layout_constraintEnd_toStartOf="@id/imageInfo"
+        app:layout_constraintEnd_toStartOf="@id/imageAvailability"
         app:layout_constraintStart_toEndOf="@id/imageBack"
+        app:layout_constraintTop_toTopOf="@id/imageBack" />
+
+    <ImageView
+        android:id="@+id/imageAvailability"
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:src="@drawable/ic_online"
+        android:contentDescription="@string/indicador_de_disponibilidade_do_usuario"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/imageBack"
+        app:layout_constraintEnd_toStartOf="@id/imageInfo"
+        app:layout_constraintStart_toEndOf="@id/textName"
         app:layout_constraintTop_toTopOf="@id/imageBack" />
 
     <View
