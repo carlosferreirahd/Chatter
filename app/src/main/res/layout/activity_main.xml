@@ -7,7 +7,7 @@
     android:animateLayoutChanges="true"
     android:background="@color/primary"
     tools:context=".activities.MainActivity">
-    
+
     <com.makeramen.roundedimageview.RoundedImageView
         android:id="@+id/imageProfile"
         android:layout_width="@dimen/_30sdp"
@@ -19,7 +19,8 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:riv_corner_radius="@dimen/_8sdp" />
+        app:riv_corner_radius="@dimen/_8sdp"
+        tools:ignore="ImageContrastCheck" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imageSignOut"

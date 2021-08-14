@@ -10,6 +10,7 @@
         <entry key="app/src/main/res/drawable/ic_online.xml" value="0.20277777777777778" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.12228260869565218" />
+        <entry key="app/src/main/res/layout/item_container_recent_conversation.xml" value="0.17798913043478262" />
       </map>
     </option>
   </component>
