@@ -40,7 +40,7 @@ public class Constants {
             remoteMsgHeaders = new HashMap<>();
             remoteMsgHeaders.put(
                     REMOTE_MSG_AUTHORIZATION,
-                    "key=AAAAduUlW7k:APA91bGCD6exjP_a6mYdF2awKVU5Lm9J7cFXtt1nZ97-LqVvkMJJjpznsvIff8qna1x85LG_-44QKBPbDC6IMNWXyp_gesM6XE3JUZwDwcP_DAvyhH1rhOQhEhAGpPIKWJLnp9xLhd1j"
+                    "key=" + API_KEYS.FCM_AUTHORIZATION_TOKEN // Set your own fcm token here
             );
             remoteMsgHeaders.put(
                     REMOTE_MSG_CONTENT_TYPE,
